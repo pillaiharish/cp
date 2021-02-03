@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 import java.util.StringTokenizer;
-
+ 
 // Sleuth
 // https://codeforces.com/contest/49/problem/A
 public class Sleuth {
@@ -19,7 +19,7 @@ public class Sleuth {
 				break;
 			}
 			
-
+ 
 		}
 		inside=Character.toLowerCase(inside);
 		if(inside=='a'||inside=='e'||inside=='i'||inside=='o'||inside=='u'||inside=='y') {
@@ -48,7 +48,7 @@ public class Sleuth {
                 }
             return st.nextToken();
         }
-
+ 
         int nextInt() {
             return Integer.parseInt(next());
         }
@@ -61,5 +61,5 @@ public class Sleuth {
             return Long.parseLong(next());
         }
     }
-
+ 
 }
